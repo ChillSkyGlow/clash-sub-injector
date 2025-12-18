@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ghcr.io/ChillSkyGlow/clash-sub-injector:latest
+    image: ghcr.io/chillskyglow/clash-sub-injector:latest
     container_name: clash-sub-injector
     restart: unless-stopped
     ports:
