@@ -1,0 +1,10 @@
+services:
+  clash-sub-injector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/ChillSkyGlow/clash-sub-injector:latest
+    container_name: clash-sub-injector
+    restart: unless-stopped
+    ports:
+      - "25500:25500"

@@ -1,0 +1,15 @@
+# 虚拟环境（本地+容器均排除，容器内单独构建）
+venv/
+.venv/
+
+# 开发无关文件
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 开发工具配置
+.vscode/
+.idea/

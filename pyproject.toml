@@ -1,0 +1,14 @@
+[project]
+name = "clash-sub-injector"
+version = "0.1.0"
+description = "基于 Clash 订阅配置模板注入 proxy-provider 的轻量服务"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "flask-limiter>=4.1.1",
+    "gunicorn>=23.0.0 ; sys_platform == 'linux'",
+    "pyyaml>=6.0.3",
+    "requests>=2.32.5",
+    "ruamel-yaml>=0.18.16",
+]
